@@ -41,16 +41,7 @@ buildscript {
 
         crashlytics_version = '2.10.1'
     }
-    plugins {
-    id("org.sonarqube") version "3.4.0.2513"
-    }
-
-    sonarqube {
-        properties {
-        property "sonar.projectKey", "kaltin"
-    }
-    }
-
+    
     repositories {
         google()
         jcenter()
@@ -66,9 +57,15 @@ buildscript {
 
         /* // Crashlytics plugin
          classpath "io.fabric.tools:gradle:$rootProject.crashlytics_version"*/
+         classpath("org.sonarsource.scanner.gradle:sonarqube-gradle-plugin:3.4.0.2513")
     }
 }
-
+apply(plugin = "org.sonarqube")
+sonarqube {
+        properties {
+        property "sonar.projectKey", "kaltin"
+    }
+    }
 allprojects {
     repositories {
         google()
