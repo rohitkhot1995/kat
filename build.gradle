@@ -57,7 +57,8 @@ buildscript {
 
         /* // Crashlytics plugin
          classpath "io.fabric.tools:gradle:$rootProject.crashlytics_version"*/
-         classpath("org.sonarsource.scanner.gradle:sonarqube-gradle-plugin:3.4.0.2513")
+         classpath "org.sonarsource.scanner.gradle:sonarqube-gradle-plugin:2.5"
+
     }
 }
 apply(plugin = "org.sonarqube")
