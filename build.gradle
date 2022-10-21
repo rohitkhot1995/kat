@@ -65,7 +65,10 @@ plugins {
 
 sonarqube {
   properties {
-    property "sonar.projectKey", "kotlin"
+    property("sonar.projectKey", kotlin)
+    property("sonar.projectName", kotlin)
+    property("sonar.links.scm", "https://github.com/rohitkhot1995/kat.git")        
+    property("sonar.exclusions", "**/build/**/*")
   }
 }
 allprojects {
