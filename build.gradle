@@ -47,7 +47,10 @@ buildscript {
 
 sonarqube {
   properties {
-    property "sonar.projectKey", "kotlin"
+        property "sonar.host.URL", "http://43.205.121.246:9000"
+        property "sonar.ProjectKey", "kotlin"
+        property "sonar.Projectname", "kotlin"
+        property "sonar.sourceEncoding", "UTF-8"
   }
 }
    
@@ -67,6 +70,7 @@ sonarqube {
 
         /* // Crashlytics plugin
          classpath "io.fabric.tools:gradle:$rootProject.crashlytics_version"*/
+         classpath "org.sonarsource.scanner.gradle:sonarqube-gradle-plugin:3.3"
     }
 }
 
