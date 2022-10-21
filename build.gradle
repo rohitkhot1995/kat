@@ -41,6 +41,15 @@ buildscript {
 
         crashlytics_version = '2.10.1'
     }
+    plugins {
+    id "org.sonarqube"
+    }
+
+    sonarqube {
+        properties {
+        property "sonar.projectKey", "kaltin"
+    }
+    }
 
     repositories {
         google()
@@ -70,12 +79,4 @@ allprojects {
 task clean(type: Delete) {
     delete rootProject.buildDir
 }
-plugins {
-  id "org.sonarqube"
-}
 
-sonarqube {
-  properties {
-    property "sonar.projectKey", "kaltin"
-  }
-}
