@@ -61,7 +61,7 @@ buildscript {
 
     }
 }
-apply plugin = "org.sonarqube"
+apply plugins = "org.sonarqube"
 sonarqube {
         properties {
         property "sonar.projectKey", "kaltin"
