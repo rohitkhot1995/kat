@@ -65,7 +65,7 @@ plugins {
 
 sonarqube {
   properties {
-    property "sonar.projectKey", "kaltin"
+    property "sonar.projectKey", "kotlin"
   }
 }
 allprojects {
