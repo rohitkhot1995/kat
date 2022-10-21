@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "247132150527",
+    "firebase_url": "https://european-cricket-network-4c22b.firebaseio.com",
+    "project_id": "european-cricket-network-4c22b",
+    "storage_bucket": "european-cricket-network-4c22b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:247132150527:android:f27e0ad74638e37fb04aca",
+        "android_client_info": {
+          "package_name": "com.sports.europeancricket"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "247132150527-77qr4086s3jj9la5klpn1cpqse34nll7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCt0T3KjATM2vc2szTE0VFrjEJG8XMrXA0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "247132150527-77qr4086s3jj9la5klpn1cpqse34nll7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
