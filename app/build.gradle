@@ -77,9 +77,4 @@ dependencies {
    // implementation "com.crashlytics.sdk.android:crashlytics:$rootProject.crashlytics_version"
 }
 apply plugin: 'com.google.gms.google-services'  // Google Play services Gradle plugin
-apply plugin: 'org.sonarqube'
-sonarqube {
-  properties {
-    property "sonar.projectKey", "kotlin"
-  }
-}
+
