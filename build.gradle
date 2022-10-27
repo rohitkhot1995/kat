@@ -50,6 +50,7 @@ sonarqube {
     property "sonar.projectKey", "kotlin"
   }
 }
+apply plugin: 'org.sonarqube'
    
     
     repositories {
