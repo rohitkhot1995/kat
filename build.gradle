@@ -42,15 +42,12 @@ buildscript {
         crashlytics_version = '2.10.1'
     }
     plugins {
-      id 'org.sonarqube' version '3.3' apply false
-    }
+  id "org.sonarqube" version "3.3"
+}
 
 sonarqube {
   properties {
-        property "sonar.host.URL", "http://43.205.121.246:9000"
-        property "sonar.ProjectKey", "kotlin"
-        property "sonar.Projectname", "kotlin"
-        property "sonar.sourceEncoding", "UTF-8"
+    property "sonar.projectKey", "kotlin"
   }
 }
    
