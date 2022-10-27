@@ -44,13 +44,14 @@ buildscript {
     plugins {
   id "org.sonarqube" version "3.3"
 }
+apply plugin: 'org.sonarqube'
 
 sonarqube {
   properties {
     property "sonar.projectKey", "kotlin"
   }
 }
-apply plugin: 'org.sonarqube'
+
    
     
     repositories {
