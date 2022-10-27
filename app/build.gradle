@@ -13,6 +13,7 @@ sonarqube
                         property "sonar.projectKey", "kotlin"
                         property "sonar.language", "kotlin"
                         property "sonar.binaries", "build"
+                        property "sonar.sources", "src/main/java/"
                         property "sonar.sourceEncoding", "UTF-8"
                         property "sonar.login", "admin"
                         property "sonar.password", "admin123"
