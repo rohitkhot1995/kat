@@ -101,6 +101,8 @@ dependencies {
 
     //Crashlytics library for keeping a track of the crashes in the app.
    // implementation "com.crashlytics.sdk.android:crashlytics:$rootProject.crashlytics_version"
+    implementation 'org.glassfish:javax.annotation:10.0-b28'
+    compileOnly 'com.github.pengrad:jdk9-deps:1.0'
 }
 apply plugin: 'com.google.gms.google-services'  // Google Play services Gradle plugin
 
