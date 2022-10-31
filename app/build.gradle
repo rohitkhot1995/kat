@@ -31,7 +31,7 @@ property "sonar.coverage.exclusions", "src/androidTest/java"
 } 
 android {
     compileSdkVersion 29
-    buildToolsVersion "29.0.2"
+    buildToolsVersion "30.0.2"
     defaultConfig {
         applicationId "com.sports.europeancricket"
         minSdkVersion 22
